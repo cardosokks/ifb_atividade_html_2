@@ -2,19 +2,63 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curso Online</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Curso Online de Programação Web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav>
-        <ul style="list-style: none; display: flex; gap: 20px; padding: 0;">
-            <li><a href="#inicio">Início</a></li>
-            <li><a href="#cursos">Cursos</a></li>
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#contato">Contato</a></li>
-        </ul>
-    </nav>
+    <div class="navbar">
+        <a href="#" class="logo">Curso Web</a>
+        <div class="menu-toggle" id="menu-toggle" aria-label="Abrir menu" tabindex="0">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav id="nav">
+            <a href="#">Home</a>
+            <a href="#">Sobre</a>
+            <a href="#">Conteúdo</a>
+            <a href="#">Instrutores</a>
+        </nav>
+    </div>
+    <header>
+        <h1>Curso Online de Programação Web</h1>
+        <p>Aprenda a criar sites modernos do zero ao avançado com HTML, CSS e JavaScript.</p>
+    </header>
+    <main>
+        <section>
+            <h2>Por que aprender programação web?</h2>
+            <p>
+                O universo digital está em constante evolução. Aprender programação web abre portas para criar soluções inovadoras, desenvolver sua criatividade e conquistar oportunidades no mercado de tecnologia.
+            </p>
+        </section>
+        <section>
+            <h2>Tópicos do Curso</h2>
+            <ul>
+                <li>HTML5 semântico e acessível</li>
+                <li>CSS3 moderno: Flexbox, Grid e animações</li>
+                <li>JavaScript: lógica, DOM e interatividade</li>
+                <li>Responsividade e mobile-first</li>
+                <li>Boas práticas, UX/UI e acessibilidade</li>
+                <li>Publicação e portfólio online</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Instrutores</h2>
+            <div class="instrutores">
+                <div class="instrutor">
+                    <img src="https://randomuser.me/api/portraits/men/21.jpg" alt="Instrutor João Silva">
+                    <h3>Chitãozinho e Xoróró</h3>
+                    <p>Front-end developer apaixonado por inovação, com 8 anos de experiência em projetos web e ensino de programação.</p>
+                </div>
+                <div class="instrutor">
+                    <img src="https://randomuser.me/api/portraits/women/14.jpg" alt="Instrutora Maria Souza">
+                    <h3>Ana maria Braga</h3>
+                    <p>Especialista em UX/UI e acessibilidade, dedicada a criar experiências digitais inclusivas e ensinar com criatividade.</p>
+                </div>
+            </div>
+        </section>
+    </main>
     <script src="js/script.js"></script>
 </body>
 </html>
